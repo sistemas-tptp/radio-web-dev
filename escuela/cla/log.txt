@@ -1,0 +1,2 @@
+SELECT  	bc.*,  	ce.tNombre tEmpresa   FROM  	BitCursos bc  	INNER JOIN CatEntidades ce ON ce.eCodEntidad= bc.eCodEntidad   	LEFT JOIN RelCursosCategorias rc ON rc.eCodCurso=bc.eCodCurso   WHERE  	bc.eCodEstatus=3  AND bc.fhFechaCurso >= '2019-12-18 23:59:59' ORDER BY bc.eCodCurso DESC
+

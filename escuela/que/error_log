@@ -1,0 +1,8 @@
+[21-May-2020 11:36:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/emicapac/public_html/historiadelaradio.com/escuela/cnx/swgc-mysql.php on line 2
+[04-Jun-2020 00:58:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/emicapac/public_html/historiadelaradio.com/escuela/cnx/swgc-mysql.php on line 2
+[13-Dec-2020 12:54:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home3/diariosm/public_html/dominios/radio/escuela/cnx/swgc-mysql.php:2
+Stack trace:
+#0 /home3/diariosm/public_html/dominios/radio/escuela/que/buscarEmpresas.php(3): include()
+#1 {main}
+  thrown in /home3/diariosm/public_html/dominios/radio/escuela/cnx/swgc-mysql.php on line 2
+[28-Feb-2021 13:21:33 America/Boise] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home3/diariosm/public_html/dominios/radio/escuela/cnx/swgc-mysql.php on line 2
